@@ -70,14 +70,149 @@
 
 
 //7.Verilmis string deyerinde verilmis char-in hansi index-de yerlesdiyini tapib qaytaran funksiya qurun. olmasa -1 olmalidir.
-function findIndex(str, chr){
-        for(let i = 0; i < str.length; i++){
-            if(str[i]==chr){
-               return i;
-            }
-        }
-        return -1;
+// function findIndex(str, chr){
+//         for(let i = 0; i < str.length; i++){
+//             if(str[i]==chr){
+//                return i;
+//             }
+//         }
+//         return -1;
+//     }
+//     // console.log(findIndex("salam", "l"));
+//     console.log(findIndex(prompt(), prompt()));
+
+
+
+//19 aprel 2023.
+// 1.Ədədlərdən ibarət array verilib. Arrayın ən kiçik elementini geri qaytaran funksiyanı yazın.
+// function findMin(arry) {
+//     var min = arry[0];
+//     for (let i = 1; i < arry.length; i++) {
+//         if (arry[i] < min) {
+//             min = arry[i];
+//         }
+//     }
+//     return min;
+// }
+//       var array = [23, 11, 19, 34, -12, 551];
+//     console.log("Arrayin en kicik elementi :" + findMin([23, 11, 19, 34, 551])); 
+//ve ya console.log("Arrayin en kicik elementi :" + fimdMin(array)); 
+
+
+
+// 1-in maksimumu.
+// function findMax(arry){
+//     var max=arry[0];
+//     for(let i=1; i<arry.length; i++){
+//         if(arry[i]>max){
+//             max=arry[i];
+//         }
+//     }
+//     return max;
+// }
+// var array=[23, 11, 19, 34, -12, 551];
+// console.log("Arrayin en boyuk elementi :" + findMax(array));
+
+
+//2.cut yerde(index) duranlarin cemini tapin.
+// function findSum(arry){
+//         var sum=0;
+//         for(let i=0; i<arry.length; i+=2){
+
+//             sum+=arry[i];
+
+//         }
+//         return sum;
+//     }
+//     var array=[23, 11, 19, 34, -12, 551];
+//     console.log(findSum(array));
+
+
+//3.Tek yerde dayanan en balaca ededle, cut yerde dayanan en boyuk ededle cemi.
+// function findSum(arry){
+//     var sum=0;
+//     for(let i=1; i<arry.length; i+=2){
+//         var min=arry[1];
+//         if(arry[i]<min){
+//             min=arry[i];
+//             // sum+=arry[i];
+//         }
+//     }
+//       return min;
+//     for(let  i=0; i<arry.length; i+=2){
+//         var max=arry[0];
+//         if(arry>max){
+//             max=arry[i];
+//         }
+//     }
+// }
+// var array=[23, 11, 19, 34, -12, 551, 13];
+// console.log(findSum(array));
+
+
+
+
+
+
+
+
+
+//3.Mellimin yazdigi.
+// function findSum(arry){
+//     var min=arry[1];
+//     var max=arry[0];
+//     for (let i=2; i<arry.length; i++){
+//         if (i%2==0 && arry[i]>max){
+//             max=arry[i];
+//         }
+//         else if(i%2==1 && arry[i]<min){
+//             min=arry[i];
+//         }
+//     }
+//      console.log(min+max);
+//     // ve ya return min+max
+
+// }
+//  findSum([23, 11, 19, 34, -12, 551, 13]);
+// //ve ya console.log(findSum([23, 11, 19, 34, -12, 551, 13]));
+
+
+
+//4.while ile yazmaq.
+//Verilen ededin 2nin quvveti olub olmadigini yoxlayin, eger 2nin quvvetidirse ekrana cixaran funksiya yazin.
+// function powerOfTwo(num) {
+//     var newNum = num;
+//     var count = 0;
+
+//     while (num % 2 === 0) {
+//         num = num / 2;
+//         count++;
+//     }
+//     if (num === 1) {
+//         console.log(newNum + " 2nin " + count + " quvvetidir.")
+//     }
+//     else{
+//         console.log(newNum + " 2nin quvveti deyil.")
+//     }
+// }
+// powerOfTwo(64);
+//ve ya 
+// var num=Number(promt("eded daxil edin:"));
+
+
+//4.for-la yazmaq.
+ function powerOfTwo(num){
+    //var count=0;
+    var check=false;
+    for(let i=1; i<=num; i*=2){
+        if(i===)
     }
-    // console.log(findIndex("salam", "l"));
-    console.log(findIndex(prompt(), prompt()));
- 
+ }
+
+
+
+
+
+
+
+
