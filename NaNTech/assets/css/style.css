@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-box {
+  position: relative;
+  opacity: 0.1;
+}
+
+.name {
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  left: 45%;
+}
+
+.name1 {
+  font-size: 30px;
+  color: red;
+}
+
+.name2 {
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}
+
+.main {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  margin: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 10px ;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  box-shadow: -2px 7px 12px 10px #d3d0d0;
+}
+.main p{
+  margin: 30px;
+  margin-left: 50px;
+  margin-top: 70px;
+  font-size: 30px;
+}
+
+.main input {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 75%;
+  padding: 15px;
+  margin-top: 3px;
+  margin-left:40px;
+  margin-bottom:30px;
+}
+.main button{
+  border: 1px solid;
+  border-radius: 10px;
+  width: 300px;
+  height:50px;
+  margin-left: 40px;
+  margin-top: 30px;
+  background-color: red;
+  color: white;
+}
+.eye {
+  position: relative;
+ 
+}
+
+.eye i{
+  position: absolute;
+  top: 20px;
+  right: 80px;
+}
+.write{
+  position: absolute;
+  bottom: 90px;
+  left: 500px;
+  font-size: 20px;
+  color: black;
+}
