@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+  
+}
+#box{
+    width: 400px;
+    height:400px; 
+    background-color: rgb(60, 165, 146);
+    position: relative;
+    top: 200px;
+    border: 1px solid black;
+} 
+#ball{
+    width: 30px;
+    height: 30px; 
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 170px;
+    top: 175px; 
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+}
+.btn{
+ width: auto;
+ height: 30px;   
+ color:rgb(60, 165, 146);
+ margin-top: 5px;
+}
